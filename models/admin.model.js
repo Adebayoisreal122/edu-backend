@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const Uri = "mongodb+srv://adebayooluwaferanmi112:Isrealight@cluster0.jimol0n.mongodb.net/student_db?retryWrites=true&w=majority"
+const Uri = "mongodb+srv://Edufy_2024:Edufy_2024@cluster2.uezjk2x.mongodb.net/?retryWrites=true&w=majority"
 
 
 mongoose.connect(Uri)
@@ -49,6 +49,6 @@ adminSchema.methods.matchPassword = function(enteredPassword) {
 };
 
 
-const Admin = mongoose.model('Admin', adminSchema);
+const Admins = mongoose.model('Admins', adminSchema);
 
-module.exports = Admin;
+module.exports = Admins;

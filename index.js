@@ -5,7 +5,7 @@ const userRouter = require('./routes/user.router');
 const adminRouter = require('./routes/admin.router');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3200;
 
 dotenv.config();
 

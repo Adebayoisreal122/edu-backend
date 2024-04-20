@@ -5,10 +5,10 @@ const {adminsignUp, adminsignIn, adminsendVerification, adminsendOTP } = require
 
 
 
-router.post('/adminsignup', adminsignUp);
-router.post('/adminsignin', adminsignIn);
-router.post('/adminsend-verification', adminsendVerification);
-router.post('/adminsend-otp', adminsendOTP);
+router.post('/admin/adminsignup', adminsignUp);
+router.post('/admin/adminsignin', adminsignIn);
+router.post('/admin/adminsend-verification', adminsendVerification);
+router.post('/admin/adminsend-otp', adminsendOTP);
 
 
 module.exports = router;

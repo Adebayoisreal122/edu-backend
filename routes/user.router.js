@@ -2,14 +2,10 @@ const express = require('express');
 const router = express.Router();
 const {usersignUp, usersignIn, usersendVerification, usersendOTP} = require('../controllers/user.controller');
 
-router.post('/usersignup', usersignUp);
-router.post('/usersignin', usersignIn);
-router.post('/usersend-verification', usersendVerification);
-router.post('/usersend-otp', usersendOTP);
-
-
-
-
+router.post('/user/usersignup', usersignUp);
+router.post('/user/usersignin', usersignIn);
+router.post('/user/usersend-verification', usersendVerification);
+router.post('/user/usersend-otp', usersendOTP);
 
 
 
